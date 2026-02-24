@@ -1,8 +1,8 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
-avatar: /avatar.jpeg
+title: Yancheng He
+description: LLM Researcher | LLM, RL, NLP
+url: https://sydney170.github.io/personal/
+avatar: /avatar.jpg
 paginate: 5
 permalink: pretty
 cover_image: /bg.jpeg
@@ -29,14 +29,14 @@ exclude:
 
 # Optimize Jekyl SEO Tag
 twitter:
-  username: vszhub
+  username: he_yancheng
   card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: Yancheng He (贺彦程)
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://scholar.google.com/citations?user=WicqLFsAAAAJ
+    - https://github.com/sydney170
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: Yancheng He (贺彦程)
+  url: https://scholar.google.com/citations?user=WicqLFsAAAAJ
+  email: sydney_he@163.com

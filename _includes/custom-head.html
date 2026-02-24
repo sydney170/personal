@@ -4,3 +4,151 @@
   1. Head over to https://realfavicongenerator.net/ to add your own favicons.
   2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
+
+<style>
+  /* 扩展内容区宽度，优化论文卡片显示 */
+  .content {
+    width: 75% !important;
+  }
+
+  .sidebar-right {
+    width: 25% !important;
+  }
+
+  /* Academic Page Styles */
+  .news-item {
+    margin-bottom: 10px;
+    font-size: 0.95em;
+    padding: 5px 0;
+  }
+
+  /* Paper Card - Light Theme */
+  .paper-card {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background: #eceff1;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+
+  .paper-image {
+    flex: 0 0 32%;
+    min-width: 320px;
+    max-width: 420px;
+  }
+
+  .paper-image img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #e9ecef;
+  }
+
+  .paper-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .paper-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #3a3b3e;
+    margin: 0 0 0.5rem 0;
+    line-height: 1.4;
+  }
+
+  .paper-authors {
+    font-size: 0.95rem;
+    color: #495057;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+  }
+
+  .paper-author-me {
+    font-weight: 600;
+    color: #212529;
+  }
+
+  .paper-conference {
+    display: inline-block;
+    width: fit-content;
+    background: #6a84ed;
+    color: #ffffff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    white-space: nowrap;
+  }
+
+  .paper-abstract {
+    font-size: 0.9rem;
+    color: #6c757d;
+    line-height: 1.6;
+    margin-bottom: 0.25rem;
+  }
+
+  .paper-link {
+    color: #4a6cf7;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  .paper-link:hover {
+    text-decoration: underline;
+  }
+
+  .tag {
+    display: inline-block;
+    background: #e8f4fd;
+    color: #2980b9;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    margin: 5px 5px 0 0;
+  }
+
+  h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .page h2:first-child {
+    margin-top: 20px;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 1024px) {
+    .content {
+      width: 100% !important;
+    }
+
+    .sidebar-right {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .paper-card {
+      flex-direction: column;
+    }
+
+    .paper-image {
+      flex: 0 0 auto;
+      min-width: auto;
+      max-width: 100%;
+    }
+
+    .paper-title {
+      font-size: 1.25rem;
+    }
+  }
+</style>

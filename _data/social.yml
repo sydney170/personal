@@ -1,9 +1,9 @@
-- title: Email
-  url: mailto://vszhub@gmail.com
-  icon: fas fa-envelope
+- title: Google Scholar
+  url: https://scholar.google.com/citations?user=WicqLFsAAAAJ
+  icon: fas fa-graduation-cap
 - title: Twitter
-  url: https://twitter.com/vszhub
+  url: https://x.com/helansydney
   icon: fab fa-twitter
-- title: GitHub
-  url: https://github.com/vszhub/not-pure-poole
-  icon: fab fa-github
+- title: Email
+  url: mailto:sydney_he@163.com
+  icon: fas fa-envelope
