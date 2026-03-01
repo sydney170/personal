@@ -9,7 +9,7 @@ Here is a list of my selected publications. For more details, please visit my [G
 
 ### 2026
 
-**Tricks or Traps? A Deep Dive into RL for LLM Reasoning**  
+**LitePPO: Tricks or Traps? A Deep Dive into RL for LLM Reasoning**  
 *Zihe Liu, Jiashun Liu, Yancheng He, Weixun Wang, Jiaheng Liu, Ling Pan, Xinyu Hu, Shaopan Xiong, Ju Huang, Jian Hu, Shengyi Huang, Siran Yang, Jiamang Wang, Wenbo Su, Bo Zheng*  
 **ICLR 2026**  
 [[paper](https://arxiv.org/abs/2508.08221)] [[code](https://github.com/alibaba/ROLL/blob/main/docs_roll/i18n/zh-Hans/docusaurus-plugin-content-docs/current/User%20Guides/Algorithms/LitePPO.md)]

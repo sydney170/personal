@@ -48,7 +48,7 @@ Currently, I am actively exploring the potential of **Large Language Models (LLM
     <img src="/images/liteppo.png" alt="Liteppo" />
   </div>
   <div class="paper-content">
-    <h3 class="paper-title">Tricks or Traps? A Deep Dive into RL for LLM Reasoning</h3>
+    <h3 class="paper-title">LitePPO: Tricks or Traps? A Deep Dive into RL for LLM Reasoning</h3>
     <p class="paper-authors">
       Zihe Liu, Jiashun Liu, Yancheng He, Weixun Wang, Jiaheng Liu, Ling Pan, Xinyu Hu, Shaopan Xiong, Ju Huang, Jian Hu, Shengyi Huang, Siran Yang, Jiamang Wang, Wenbo Su, Bo Zheng
     </p>
